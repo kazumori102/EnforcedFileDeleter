@@ -1,4 +1,4 @@
-# 💣 Goodbye F**king Files 💥
+# 強制ファイル削除機
 
 ## 📝 概要
 
@@ -21,11 +21,11 @@
 
 ## ⚙️ 利用方法
 
-初めに、本リポジトリを複製するか、[こちら](https://github.com/ActiveTK/gff/archive/refs/heads/main.zip)からダウンロードして展開してください。
+初めに、本リポジトリを複製するか、[こちら](https://github.com/kazumori102/EnforcedFileDeleter/archive/refs/heads/main.zip)からダウンロードして展開してください。
 
 ```bash
-git clone https://github.com/ActiveTK/gff
-cd gff
+git clone https://github.com/kazumori102/EnforcedFileDeleter
+cd efd
 ```
 
 🧑‍💻 実行には**管理者権限**が必要です。  
@@ -34,10 +34,10 @@ cd gff
 削除したいファイルまたはディレクトリのパスを引数に指定するだけで、強制削除できます:
 
 ```bash
-gff "削除したいファイルまたはディレクトリのパス"
+efd "削除したいファイルまたはディレクトリのパス"
 ```
 
-または、`gff.exe` に削除対象ファイルをドラッグ＆ドロップするだけでも動作します。
+または、`efd.exe` に削除対象ファイルをドラッグ＆ドロップするだけでも動作します。
 
 ## ⚠️ 利用上の注意
 
@@ -66,8 +66,14 @@ gff "削除したいファイルまたはディレクトリのパス"
 
 このプログラムは The MIT License の下で公開されています。
 
+Original
 © 2025 ActiveTK.  
 🔗 https://github.com/ActiveTK/gff/blob/master/LICENSE
+
+Forked
+© 2025 kazumori102.  
+🔗 https://github.com/kazumori102/EnforcedFileDeleter/blob/master/LICENSE
+
 
 ## 🛠️ 内部設定
 
@@ -83,3 +89,4 @@ gff "削除したいファイルまたはディレクトリのパス"
 # ファイル本体とNTFSのMFT上書き削除を有効化
 # EnableIrreversibleOverride
 ```
+
